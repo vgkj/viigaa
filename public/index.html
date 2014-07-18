@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">	
+<title>珠海微加科技有限公司</title>
+<script src="js/jquery-1.8.2.min.js"></script>
+<script src="js/html5.js"></script>
+<script>
+	$(function(){
+		$(".myHeader-right-nav").mouseover(function(e) {
+           $(this).children('a').children('font').css("color","#416d5c");
+		   $(this).children('a').children('p').css("border-bottom","8px solid #416d5c");
+        });
+		$(".myHeader-right-nav").mouseout(function(e) {
+           $(this).children('a').children('font').css("color","#888");
+		   $(this).children('a').children('p').css("border-bottom","8px solid #888");
+        });
+	});
+</script>
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<link href="css/banner.css" rel="stylesheet" />
+<link href="css/slideshow.css" rel="stylesheet" />
+<script src="js/banner.js" type="text/javascript"></script>
+</head>
+<body>
+<header id="myHeader">
+	<div id="myHeader-content">
+    	<div id="myHeader-left"><img src="images/logo.png"></div>
+        <div id="myHeader-right">
+            <div class="myHeader-right-nav">
+               <a href="index.html"><font style="margin-left:24px;">首页</font><p></p></a>
+            </div>
+            <div class="myHeader-right-nav">
+               <a href="about.html"><font>关于微加</font><p></p></a>
+            </div>
+            <div class="myHeader-right-nav">
+               <a href="product.html"><font>产品中心</font><p></p></a>
+            </div>
+            <div class="myHeader-right-nav">
+              <a href="contact.html"><font>联系我们</font><p></p></a>
+            </div>
+        </div>
+    </div>   
+ </header>
+    <div id="content">
+      <div id="banner" style="padding-top:20px;">
+      	<div id="yc-mod-slider">
+        <div class="wrapper">
+            <div id="slideshow" class="box_skitter fn-clear">
+                <ul>
+                    <li>
+                        <img alt="" class="cubeRandom" src="images/4.jpg"/></li>
+                    <li>
+                        <img alt="" class="cubeRandom" src="images/2.jpg" /></li>
+                    <li>
+                        <img alt="" class="cubeRandom" src="images/3.jpg" /></li>
+                </ul>
+            </div>
+            <script type="text/javascript" src="js/slideshow.js"></script>
+        </div>
+    </div>
+        
+   	  </div>
+    
+    <div id="content-text">
+      <div class="content-left"><p>●　简体中文</p>
+        <p style="padding-top: 13px;">●　English</p></div>
+            <div class="content-right">
+                <div class="content-right-title">
+                    <font>公司动态</font><b>Dynamic company</b>
+                </div>
+                    <p><a href="about.html">> Viigaa是什么?</a></p>
+                    <p><a href="product.html">> Viigaa的服务覆盖范围?</a></p>
+                    <p><a href="company.html">> 我们是怎样的一个团队?</a></p>
+                    <p><a href="#">更多>></a></p>
+            </div>
+             <div class="content-right">
+                <div class="content-right-title">
+                    <font>关于微加</font><b>About Us</b>
+                </div>
+                    <p>Viigaa致力于校园免费无线WIFI，是全国首家为校园免费,
+                    提供无线wifi的公司。在这里我们提供多元化的服务...</p>
+                    <p><a href="#">更多>></a></p>
+            </div>
+             <div class="content-right">
+                <div class="content-right-title">
+                    <font>战略合作</font><b>Strategic cooperation</b>
+                </div>
+                    <p>Viigaa中国，已覆盖超过20+的大学。大学是学生梦想开始的地方，2015年我们的服务将覆盖超过100+高校！</p>
+                    <p ><a href="#">更多>></a></p>
+            </div>
+          </div>
+   </div>
+        <footer id="content-footer"> <p>2014 - 2015 Viigaa Inc. All Rights Reserved</p></footer>
+         
+</body>
+</html>
