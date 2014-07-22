@@ -1,0 +1,16 @@
+﻿
+body { margin: 0px; padding: 0px; }
+img { border: 0px; }
+#banner{ padding-top:20px;}
+.slides { margin: 0px auto; width: 1110px; height: 420px; overflow: hidden; position: relative; }
+.slide-pic { margin: 0px; padding: 0px; width: 1110px; overflow: hidden; list-style: none; }
+    .slide-pic img { width: 1110px; height: 420px; }
+    .slide-pic li { display: none; }
+        .slide-pic li.cur { display: block; }
+.slide-li { margin: 0px; padding: 0px; left: 0px; bottom: 0px; position: absolute; }
+    .slide-li li { margin: 0px; padding: 0px; width: 222px; height: 10px; float: left; overflow: hidden; list-style: none; }
+    .slide-li a { width: 222px; height: 10px; color: #000; font-size: 12px; display: block; }
+        .slide-li a:hover { color: #F00; text-decoration: none; }
+.op li { background: #eeeeee; filter: alpha(opacity=60); opacity: 0.6; }
+    .op li.cur { background: #666666; }
+.slide-txt span { display: none; }
