@@ -1,5 +1,6 @@
 ﻿*{ margin:0px; padding:0px;}
-body{font-family:Microsoft YaHei; overflow-x:hidden;}
+html{ overflow-x:hidden;}
+body{font-family:Microsoft YaHei;}
 a{ text-decoration:none;}
 #myHeader{ width:100%; margin:0 auto; background:#eee; border-bottom: 1px solid #888;}
 #myHeader-content{ width:1110px; margin:0 auto;  height:100px; padding-bottom: 6px;}
@@ -7,7 +8,6 @@ a{ text-decoration:none;}
 #myHeader-right{ float:right; width:46%;  text-align:right;padding-top: 65px;}
 .myHeader-right-nav { width:102px; height:30px; line-height:30px; text-align:center;  float:left; }
 .myHeader-right-nav font{ font-size:14px;  color:#888; }
-.myHeader-right-nav p{ border-bottom: 8px solid #888; border-left: 8px solid transparent; float: right; margin-right: 28px; margin-top: 14px;}
 #content{ text-align:center; width:1110px; margin:0 auto; padding-top:20px; padding-bottom:20px;}
 #content-text{ width:1110px; margin:0 auto; height:160px; padding-top: 25px;}
 .content-left{ width:200px; color:#888; font-size:12px; float:left; text-align:left;}
@@ -20,7 +20,5 @@ a{ text-decoration:none;}
 .content-right p a{ color:#888; width:197px;  }
 #content-footer{border-top: 1px solid #888; clear:both;  width:100%; margin:0 auto;}
 #content-footer p{ font-size:10px; padding-top: 8px; color:#888;float: right; padding-right: 400px; padding-top: 10px;}
-
-/*关于微加css*/
 
 #about-content{width:1110px; margin:0 auto; padding-bottom:40px;}
