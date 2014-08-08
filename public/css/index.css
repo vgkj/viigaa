@@ -19,6 +19,6 @@ a{ text-decoration:none;}
 .content-right p{ font-size:11px; color:#888; width:203px; line-height:24px;  padding-left: 9px; text-align:justify;text-justify:inter-ideograph;}
 .content-right p a{ color:#888; width:197px;  }
 #content-footer{border-top: 1px solid #888; clear:both;  width:100%; margin:0 auto;}
-#content-footer p{ font-size:10px; padding-top: 8px; color:#888;float: right; padding-right: 400px; padding-top: 10px;}
+#content-footer p{ font-size:10px; padding-top: 8px; color:#888; padding-top: 10px; text-align:center;}
 
 #about-content{width:1110px; margin:0 auto; padding-bottom:40px;}
