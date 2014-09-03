@@ -155,15 +155,14 @@ body {
 	position: absolute;
 }
 .c1 {
-	background: url(../images/vj/pro3.png);
+	background: url(../images/vj/pro3.jpg);
 }
 .c2 {
 	margin-bottom: 40px;
-	;
 	margin-top: 40px;
 }
 .c3 {
-	background: url(../images/vj/pro5.png);
+	background: url(../images/vj/pro5.jpg);
 }
 .c4 {
 	background: url(../images/vj/pro7.png);
@@ -175,7 +174,8 @@ body {
 	margin-bottom: 40px;
 }
 .c7 {
-	background: url(../images/vj/sev3.png);
+	1background: url(../images/vj/sev3.png);
+	background-color:#fcfcfc;
 }
 .c8 {
 	background-color: #fff;
@@ -188,14 +188,16 @@ body {
 	background: #d80100;
 }
 .c13 {
-	background: url(../images/vj/ad2.png);
+	background: url(../images/vj/ad2.jpg);
 }
 .c14 {
+	1background-color:#c8c7cc;
 	background: url(../images/vj/ad4.png);
 	margin-top: 40px;
+	width:100%;
 }
 .c15 {
-	background: url(../images/vj/ad6.png);
+	background: url(../images/vj/ad6.jpg);
 }
 .c16 {
 	background: url(../images/vj/vj.png);
