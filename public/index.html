@@ -1,84 +1,113 @@
 <!doctype html>
-<html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
 <head>
-<meta charset="utf-8">	
-<meta content="珠海微加科技,微加科技,微加,珠海微加,viigaa,珠海viigaa" name="keywords" />
-<meta content="珠海微加科技,微加科技,微加,珠海微加,viigaa,珠海viigaai" name="description" />
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<meta charset="utf-8">
 <title>珠海微加科技有限公司</title>
+<link rel="shortcut icon" href="images/index/favicon.ico" type="image/x-icon">
+<link href="css/css.css" media="screen" rel="stylesheet" type="text/css">
+<link href="css/index.css" media="screen" rel="stylesheet" type="text/css">
 <script src="js/jquery-1.8.2.min.js"></script>
-<script src="js/html5.js"></script>
-<link type="text/css" rel="stylesheet" href="css/index.css" />
-<link href="css/slideshow.css" rel="stylesheet" />
-<script type="text/javascript" src="js/lrtk.js"></script>
+<script src="js/vj.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/jquery.DB_tabMotionBanner.min.js"></script>
 </head>
 <body>
-    <div class="head-warp">
-      <div class="head">
-        <h1><img src="images/logo.png" height="48" width="257" /></h1>
-        <div class="nav-box">
-          <ul>                              
-            <li class="cur"><a href="index.html">首页</a></li>
-            <li><a href="about.html">关于微加</a></li>
-            <li><a href="product.html">微加服务</a></li>
-            <li><a href="company.html">微加团队</a></li>
-            <li><a href="contact.html">联系微加</a></li>
-          </ul>
-          <div class="nav-line" style="left: 92px; width: 64px; "></div>
-        </div>
+<header class="myHeader">
+  <div class="nav1">
+    <div class="nav"> 
+      <!--左边logo-->
+      <div class="nav-left"><a href="index.html"><img src="images/index/logo.png" width="209" height="49"></a></div>
+      <!--列表导航-->
+      <div class="nav-box">
+        <ul id="navlist">
+          <li><a href="index.html" id="current">首页</a></li>
+          <li><a href="product.html" >微加产品</a></li>
+          <li><a href="service.html" >微加服务</a></li>
+          <li><a href="user.html" >微加用户</a></li>
+          <li><a href="ad.html" >微加广告</a></li>
+          <li><a href="contact.html" >关于微加</a></li>
+        </ul>
       </div>
     </div>
-    <div id="content">
-      <div id="banner" style="padding-top:20px;">
-      	<div id="yc-mod-slider">
-        <div class="wrapper">
-            <div id="slideshow" class="box_skitter fn-clear">
-                <ul>
-                	<li>
-                        <img alt="" class="cubeRandom" src="images/1.jpg"/></li>
-                    <li>
-                        <img alt="" class="cubeRandom" src="images/2.jpg"/></li>
-                    <li>
-                        <img alt="" class="cubeRandom" src="images/3.jpg" /></li>
-                    <li>
-                        <img alt="" class="cubeRandom" src="images/4.jpg" /></li>
-                </ul>
-            </div>
-            <script type="text/javascript" src="js/slideshow.js"></script>
-        </div>
-    </div> 
-   </div>
-    
-    <div id="content-text">
-      <div class="content-left"><!--<p>●　简体中文</p>
-        <p style="padding-top: 13px;">●　English</p>--></div>
-            <div class="content-right">
-                <div class="content-right-title">
-                    <font>公司动态</font><b>Dynamic company</b>
-                </div>
-                    <p><a href="about.html">> Viigaa是什么?</a></p>
-                    <p><a href="product.html">> Viigaa的服务覆盖范围?</a></p>
-                    <p><a href="company.html">> 我们是怎样的一个团队?</a></p>
-                    <p><a href="index.html">更多>></a></p>
-            </div>
-             <div class="content-right">
-                <div class="content-right-title">
-                    <font>关于微加</font><b>About Us</b>
-                </div>
-                    <p>Viigaa致力于校园免费无线WIFI，是全国首家为校园免费,
-                    提供无线wifi的公司。在这里我们提供多元化的服务...</p>
-                    <p><a href="about.html">更多>></a></p>
-            </div>
-             <div class="content-right">
-                <div class="content-right-title">
-                    <font>战略合作</font><b>Strategic cooperation</b>
-                </div>
-                    <p>Viigaa中国，已覆盖超过20+的大学。大学是学生梦想开始的地方，2015年我们的服务将覆盖超过100+高校！</p>
-                    <p ><a href="product.html">更多>></a></p>
-            </div>
-          </div>
-   </div>
-        <footer id="content-footer"> <p><a href="http://www.miitbeian.gov.cn" style="color:#888;">粤ICP备14058022号</a> - 2015 Viigaa Inc. All Rights Reserved</p></footer>
-         
+  </div>
+</header>
+<!--one slides-->
+<div class="flexslider">
+  <ul class="slides">
+    <li style="background: url(images/index/2.jpg)  50% 0 no-repeat;"></li>
+    <li style="background: url(images/index/1.jpg)  50% 0 no-repeat;"></li>
+  </ul>
+</div>
+<div class="content-img"> <img src="images/index/2.png"/> </div>
+<!--two slides-->
+<div class="DB_tab25">
+  <ul class="DB_bgSet">
+    <li style="background:url(images/index/1_1.png)  50% 0 no-repeat;" onclick="javascript:window.location.href='product.html'" ></li>
+    <li style="background:url(images/index/2_1_1.png)  50% 0 no-repeat;" onclick="javascript:window.location.href='user.html'" ></li>
+    <li style="background:url(images/index/4_1.png)  50% 0 no-repeat;" onclick="javascript:window.location.href='ad.html'" ></li>
+    <li style="background:url(images/index/5_1.png)  50% 0 no-repeat;" onclick="javascript:window.location.href='service.html'" ></li>
+  </ul>
+  <div style="width:960px; margin:0 auto;">
+    <ul class="DB_imgSet">
+      <li> <a href="product.html"><img class="DB_4_1" src="images/index/1_2.png"></a> <a href="product.html"><img class="DB_4_2" src="images/index/1_3.png"></a> <a href="product.html"><img class="DB_4_3" src="images/index/1_4.png"></a> <a href="product.html"><img class="DB_4_4" src="images/index/1_5.png"></a> </li>
+      <li onClick="#"> <a href="user.html"><img class="DB_3_1" src="images/index/2_2.png"></a> <a href="user.html"><img class="DB_3_2" src="images/index/2_3.png"></a> <a href="user.html"><img class="DB_3_3" src="images/index/2_4.png"></a> </li>
+      <li onClick="#"> <a href="ad.html"><img class="DB_2_1" src="images/index/4_3.png"></a> <a href="ad.html"><img class="DB_2_2" src="images/index/4_2.png"></a> <a href="ad.html"><img class="DB_2_3" src="images/index/4_4.png"></a> </li>
+      <li onClick="#"> <a href="service.html"><img class="DB_3_1" src="images/index/5_2.png"></a> <a href="service.html"><img class="DB_3_2" src="images/index/5_3.png"></a> <a href="service.html"><img class="DB_3_3" src="images/index/5_4.png"></a> </li>
+    </ul>
+    <div class="DB_menuWrap">
+      <ul class="DB_menuSet">
+        <li><img src="images/index/btn_off.png"></li>
+        <li><img src="images/index/btn_off.png"></li>
+        <li><img src="images/index/btn_off.png"></li>
+        <li><img src="images/index/btn_off.png"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="content-img" > <img src="images/index/3.png"/> </div>
+<footer class="footer">
+  <div class="footer-content">
+    <div class="copyleft">
+      <ul>
+        <li><a href="company.html">公司简介</a> -</li>
+        <li><a href="job.html">加入我们</a> -</li>
+        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="http://t.qq.com/viigaa"><img src="images/index/xinlang.jpg" height="20" width="20" /></a></li>
+        <li><a href="http://weibo.com/p/1006065166887967/weibo?from=page_100606&mod=TAB#place"><img src="images/index/weibo.png" height="20" width="20" /></a></li>
+        <li><a onClick="f()"><img src="images/index/weixin.png" height="20" width="20" /></a>
+          <div class="wxf"><img src="images/index/wxm.jpg" height="160" width="160"/><a onclick="closeBox()" class="wxm"><img src="images/index/x.png"/></a></div>
+        </li>
+      </ul>
+      Cppyright?2014，Zhuhai Viigaa Technology Co., Ltd. All Rights Reserved. <a href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action;jsessionid=71SYT2kS15pcp6gwGpXfKGCdkn7MpHGBmQv8GCcsw3PxTpX92hgt!-1048827770"> 粤ICP备14058022号</a> </div>
+    <div class="copyright"> <span>联系电话 : <strong>0756-8180097</strong></span><font>咨询时间 : 周一至周五 9:00-18:00</font><b>联系邮箱 : zengmengqi@viigaa.com</b> </div>
+  </div>
+</footer>
+<script type="text/javascript">
+$('.DB_tab25').DB_tabMotionBanner({
+	key:'b28551',
+	autoRollingTime:5000,                            
+	bgSpeed:500,
+	motion:{
+		DB_2_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_2_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_2_3:{top:100,opacity:0,speed:1000,delay:1500},
+		DB_3_1:{left:-50,opacity:0,speed:1000,delay:500},
+		DB_3_2:{top:50,opacity:0,speed:1000,delay:1000},
+		DB_3_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_1:{top:50,opacity:0,speed:1000,delay:500},
+		DB_4_2:{top:0,opacity:0,speed:1000,delay:1000},
+		DB_4_3:{top:0,opacity:0,speed:1000,delay:1500},
+		DB_4_4:{top:30,opacity:0,speed:1000,delay:2000},
+		DB_4_5:{top:100,opacity:0,speed:1000,delay:3000},
+		end:null
+	}
+})
+</script> 
+<script src="js/html5.js"></script>
 </body>
 </html>

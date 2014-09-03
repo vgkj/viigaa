@@ -1,0 +1,143 @@
+.vj-main {
+	width: 960px;
+	margin: 0 auto;
+	color: #000;
+}
+.side-bar {
+	float: left;
+	padding: 50px 0;
+	width: 180px;
+	clear: both;
+}
+.faq-nav {
+	background: none repeat scroll 0 0 #fff;
+	border:1px solid #e1e1e1;
+}
+.faq-nav h1, .faq-content h1 {
+	clear: both;
+	font-size: 18px;
+	height: 40px;
+	line-height: 30px;
+	overflow: hidden;
+}
+.faq-nav h1 {
+	padding-left: 30px;
+}
+.faq-nav li {
+	border-bottom: 1px solid #cfcfcf;
+	height: 45px;
+	line-height: 45px;
+	list-style: none outside none;
+	overflow: hidden;
+	text-align: left;
+	width: 179px;
+}
+.faq-nav a {
+	display: block;
+	height: 45px;
+	padding-left: 30px;
+	color: #000;
+	font-size: 15px;
+}
+.faq-nav li a:hover {
+	background: none repeat scroll 0 0 #3591ee;
+	color: #fff;
+}
+.faq-nav li a.on {
+	background: none repeat scroll 0 0 #3591ee;
+	color: #fff;
+}
+.faq-nav li.last {
+	border-bottom: 0 none;
+}
+.main-content {
+	float: right;
+	margin: 50px 0;
+	width: 750px;
+	font-size: 14px;
+	border: 1px solid #e1e1e1;
+}
+.faq-content {
+	border-radius: 8px;
+	clear: both;
+}
+.faq-nav .title, .faq-content .title {
+	border-bottom: 1px solid #cfcfcf;
+	border-radius: 8px 8px 0 0;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.faq-content .inner {
+	padding-bottom: 16px;
+	padding-top: 20px;
+	width: 100%;
+}
+.faq-content h1, .faq-content h2 {
+	padding: 0 30px;
+}
+.faq-content h3 {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	color: #000;
+}
+.faq-content p, .faq-content h3 {
+	line-height: 35px;
+	padding: 0 30px;
+}
+.faq-content p {
+	text-align: justify;
+	text-indent: 2em;
+}
+.faq-content h2 {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 8px;
+	text-align: center;
+}
+.faq-content .inner-last {
+	padding: 1px 0 20px;
+	width: 100%;
+}
+.inner a {
+	color: #3591ee;
+}
+.position-list-head {
+	background: #f4f5f6;
+	border-bottom: 1px solid #e1e1e1;
+	height: 38px;
+	margin-top: 44px;
+}
+.position-list-head span {
+	float: left;
+	line-height: 38px;
+}
+.position-list {
+	overflow: hidden;
+}
+.position-list li {
+	width: 100%;
+	float: left;
+}
+.position-list li span {
+	float: left;
+	line-height: 62px;
+}
+.r {
+	border-bottom: 1px solid #e1e1e1;
+}
+.position-name {
+	padding-left: 32px;
+	width: 195px;
+}
+.position-type {
+	padding-left: 40px;
+	width: 178px;
+}
+.position-place {
+	width: 180px;
+}
+.job-detial-r p {
+	line-height: 25px;
+}

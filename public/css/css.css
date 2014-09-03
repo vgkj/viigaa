@@ -1,0 +1,284 @@
+html {
+	overflow-x: hidden;
+}
+/* IE 6 不支持最大宽度，因此默认为 100% 宽度 */
+.ie6 img {
+	width: 100%;
+}
+ul, li {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-transform: capitalize;
+}
+a {
+	text-decoration: none;
+}
+img {
+	border: 0;
+}
+body {
+	font: 15px/41px 微软雅黑;
+	padding: 0;
+	margin: 0;
+}
+/*-------------------------------------------------头部导航CSS---------------------------------------------------------*/
+.nav_fixed {
+	position: fixed;
+	top: 0px;
+}
+.fixedNav {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 100000;
+	_position: absolute;
+ _top:expression(eval(document.documentElement.scrollTop));
+}
+.myHeader {
+	display: block;
+	font-size: 0;
+	margin: 0 auto;
+	z-index: 3;
+	height: 90px;
+}
+.nav1 {
+	background: #fff;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	width: 100%;
+	height: 90px;
+}
+.nav {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+/*左边logoCSS*/
+.nav-left {
+	float: left;
+	width: 33%;
+	height: 50px;
+}
+/*列表导航CSS*/
+.nav-box {
+	float: right;
+}
+#navlist ul, #navlist li {
+	display: inline;
+	list-style-type: none;
+}
+#navlist li {
+	padding: 15px 0 10px 35px;
+	float: left;
+	font-size: 0px;
+}
+#navlist a:link, #navlist a:visited {
+	float: left;
+	line-height: 14px;
+	color: #000;
+	padding-bottom: 11px;
+	font-size: 16px;
+}
+#navlist a:link#current, #navlist a:visited#current, #navlist a:hover {
+	border-bottom: 1px solid #3591ee;
+	padding-bottom: 10px;
+	background: transparent;
+	color: #3591ee;
+}
+#navlist a:hover {
+	color: #3591ee;
+}
+/*---------------------------------------------------contentCSS---------------------------------------------------------*/
+.content-vj {
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+	height: 44px;
+	margin-top: 35px;
+}
+.content-vj ul {
+	margin: 0 auto;
+	width: 960px;
+}
+.content-vj ul li {
+	width: 43%;
+	text-align: center;
+	float: left;
+	font-size: 18px;
+}
+.content-vj ul li span {
+	padding-bottom: 10px;
+}
+.content-vj ul li span a {
+	color: #7f7f7f;
+}
+.p1 span {
+	border-bottom: 2px solid #3591ee;
+}
+.p2 span {
+	border-bottom: 2px solid #ff8a00;
+}
+.p3 span {
+	border-bottom: 2px solid #37b4f2;
+}
+.p4 span {
+	border-bottom: 2px solid #55c54d;
+}
+.p5 span {
+	border-bottom: 2px solid #2bd4cf;
+}
+.content-font {
+	width: 720px;
+	margin: 0 auto;
+	padding: 25px 60px 0;
+}
+.content-font p {
+	font-size: 16px;
+	text-align: justify;
+	text-indent: 2em;
+}
+.content-img {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 0;
+}
+.content-img1 {
+	margin: 0 auto;
+	width: 100%;
+	height: 520px;
+}
+.content-img2 {
+	width: 960px;
+	margin: 0 auto;
+}
+.content-img2 img {
+	position: absolute;
+}
+.c1 {
+	background: url(../images/vj/pro3.png);
+}
+.c2 {
+	margin-bottom: 40px;
+	;
+	margin-top: 40px;
+}
+.c3 {
+	background: url(../images/vj/pro5.png);
+}
+.c4 {
+	background: url(../images/vj/pro7.png);
+}
+.c5 {
+	background-color: #67078f;
+}
+.c6 {
+	margin-bottom: 40px;
+}
+.c7 {
+	background: url(../images/vj/sev3.png);
+}
+.c8 {
+	background-color: #fff;
+	margin-top: 40px;
+}
+.c9 {
+	background-color: #0c7021;
+}
+.c12 {
+	background: #d80100;
+}
+.c13 {
+	background: url(../images/vj/ad2.png);
+}
+.c14 {
+	background: url(../images/vj/ad4.png);
+	margin-top: 40px;
+}
+.c15 {
+	background: url(../images/vj/ad6.png);
+}
+.c16 {
+	background: url(../images/vj/vj.png);
+	height: 478px;
+}
+/*---------------------------------------------------尾部CSS---------------------------------------------------------*/
+.footer {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 40px;
+	clear: both;
+	font-size: 0;
+}
+.footer-content {
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 30px;
+	height: 80px;
+}
+.copyleft {
+	width: 60%;
+	float: left;
+	font-size: 12px;
+	line-height: 25px;
+}
+.copyleft ul {
+	float: left;
+	width: 100%;
+}
+.copyleft ul li {
+	float: left;
+	padding-right: 6px;
+}
+.copyleft ul li a {
+	color: #000;
+	font-size: 13px;
+}
+.copyleft a {
+	color: #000;
+	font-size: 11px;
+}
+.copyright {
+	float: right;
+	width: 35%;
+}
+.copyright span {
+	float: right;
+	font-size: 13px;
+	line-height: 0;
+}
+.copyright font {
+	color: #888;
+	float: right;
+	font-size: 11px;
+}
+.copyright strong {
+	color: #3591ee;
+	font-size: 18px;
+	font-style: italic;
+}
+.copyright b {
+	float: right;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 0;
+}
+.wxf {
+	background: none repeat scroll 0 0 #fff;
+	border: 1px solid #b8b8b8;
+	font-size: 0;
+	height: 162px;
+	margin-left: 23px;
+	margin-top: -185px;
+	position: absolute;
+	width: 161px;
+	display: none;
+	padding: 5px;
+}
+.wxf img {
+	position: absolute;
+	float: right;
+}
+.wxm {
+	float: right;
+	margin-right: 11px;
+}
