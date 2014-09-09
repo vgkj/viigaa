@@ -76,7 +76,7 @@ body {
 #navlist a:link, #navlist a:visited {
 	float: left;
 	line-height: 14px;
-	color: #000;
+	color: #666;
 	padding-bottom: 11px;
 	font-size: 16px;
 }
@@ -191,8 +191,6 @@ body {
 	background: url(../images/vj/ad2.jpg);
 }
 .c14 {
-	1background-color:#c8c7cc;
-	background: url(../images/vj/ad4.png);
 	margin-top: 40px;
 	width:100%;
 }
