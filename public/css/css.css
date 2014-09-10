@@ -1,7 +1,4 @@
-html {
-	overflow-x: hidden;
-}
-/* IE 6 不支持最大宽度，因此默认为 100% 宽度 */
+﻿/* IE 6 不支持最大宽度，因此默认为 100% 宽度 */
 .ie6 img {
 	width: 100%;
 }
@@ -42,12 +39,16 @@ body {
 	margin: 0 auto;
 	z-index: 3;
 	height: 90px;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .nav1 {
 	background: #fff;
 	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
 	width: 100%;
 	height: 90px;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .nav {
 	width: 960px;
@@ -95,6 +96,8 @@ body {
 	border-bottom: 1px solid #f2f2f2;
 	height: 44px;
 	margin-top: 35px;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .content-vj ul {
 	margin: 0 auto;
@@ -131,6 +134,8 @@ body {
 	width: 720px;
 	margin: 0 auto;
 	padding: 25px 60px 0;
+	width:expression(document.body.clientWidth <= 720? "720px": "auto");
+    min-width:720px;
 }
 .content-font p {
 	font-size: 16px;
@@ -141,11 +146,15 @@ body {
 	margin: 0 auto;
 	width: 960px;
 	font-size: 0;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .content-img1 {
 	margin: 0 auto;
 	width: 100%;
 	height: 520px;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .content-img2 {
 	width: 960px;
@@ -208,6 +217,8 @@ body {
 	margin-top: 40px;
 	clear: both;
 	font-size: 0;
+	width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;
 }
 .footer-content {
 	width: 960px;

@@ -4,7 +4,8 @@ menu,ol,ul{list-style:none}
 html,body{width:100%;height:100%;font-family:"微软雅黑","宋体","黑体",Arial;}
 a{text-decoration:none}
 * { margin: 0; padding: 0;}
-.flexslider { position: relative; height: 522px;margin: 0 auto; clear:both; width:100%;}
+.flexslider { position: relative; height: 522px;margin: 0 auto; clear:both; width:100%;width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;}
 .slides { position: relative; z-index: 1;}
 .slides li { height: 522px;margin: 0 auto; width:100%;}
 .flex-control-nav { position: absolute; bottom: 10px; z-index: 2; width: 100%; text-align: center;}
@@ -15,7 +16,8 @@ a{text-decoration:none}
 
 /**/
 ul,li{list-style:none;margin:0;padding:0}
-.DB_tab25 {width:100%;height:563px;position:relative;overflow:hidden;cursor:pointer; margin:0 auto;}
+.DB_tab25 {width:100%;height:563px;position:relative;overflow:hidden;cursor:pointer; margin:0 auto;width:expression(document.body.clientWidth <= 960? "960px": "auto");
+    min-width:960px;}
 .DB_tab25 .DB_bgSet{position:relative;}
 .DB_tab25 .DB_bgSet li{position:absolute;width:100%;height:563px;display:none;}
 .DB_tab25 .DB_imgSet{position:absolute;width:988px;left:50%;margin-left:-500px;}
