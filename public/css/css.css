@@ -183,7 +183,7 @@ body {
 	margin-bottom: 40px;
 }
 .c7 {
-	1background: url(../images/vj/sev3.png);
+	background: url(../images/vj/sev3.png);
 	background-color:#fcfcfc;
 }
 .c8 {
@@ -206,10 +206,7 @@ body {
 .c15 {
 	background: url(../images/vj/ad6.jpg);
 }
-.c16 {
-	background: url(../images/vj/vj.png);
-	height: 478px;
-}
+
 /*---------------------------------------------------尾部CSS---------------------------------------------------------*/
 .footer {
 	width: 960px;
